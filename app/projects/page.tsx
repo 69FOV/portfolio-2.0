@@ -54,11 +54,11 @@ export default function Projects() {
 
           <div className="project-images">
             <figure className="project-figure">
-              <img src="/project1.jpg" alt="Onyx project screenshot showing dashboard" className="project-image" />
+              <img src="/project1.svg" alt="Onyx project screenshot showing dashboard" className="project-image" />
               <figcaption>Onyx Dashboard</figcaption>
             </figure>
             <figure className="project-figure">
-              <img src="/project2.jpg" alt="Jade project screenshot showing deal analysis" className="project-image" />
+              <img src="/project2.svg" alt="Jade project screenshot showing deal analysis" className="project-image" />
               <figcaption>Jade Deal Analysis</figcaption>
             </figure>
             <figure className="project-figure">
