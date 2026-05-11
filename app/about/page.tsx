@@ -25,7 +25,7 @@ export default function About() {
           <h1 className="page-title">About</h1>
           
           <div className="about-content">
-            <img src="/logo.svg" alt="Leo Magnusson profile" className="about-image" />
+            <img src="/profile.jpg" alt="Leo Magnusson profile" className="about-image" />
             <p className="about-text">
               Software engineer focused on building automated systems and clean, maintainable code. 
               Comfortable across the full stack with a preference for backend development.

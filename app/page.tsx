@@ -17,19 +17,6 @@ const focusAreas = [
   { years: "Open", title: "Available for projects and collaboration" },
 ];
 
-const projects = [
-  {
-    name: "Onyx",
-    category: "Finance / AI",
-    description: "Fully automated AI-powered personal finance app. Helps users manage money, budget, and invest across assets with minimal effort.",
-  },
-  {
-    name: "Jade",
-    category: "Real Estate / AI",
-    description: "AI-powered virtual wholesaling platform. Helps identify, analyze, and prioritize real estate deals faster through automated lead scoring, comps, and deal tracking.",
-  },
-];
-
 export default function Home() {
   const [theme, setTheme] = useState<Theme>("dark");
   const [ready, setReady] = useState(false);
