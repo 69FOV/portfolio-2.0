@@ -18,9 +18,7 @@ export default function Projects() {
     <div className="page">
       <header className="header">
         <Link href="/" className="logo" aria-label="Leo Magnusson Home">
-          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path d="M16 2L29.5 10V22L16 30L2.5 22V10L16 2Z" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
-          </svg>
+          <img src="/logo.png" alt="Leo Magnusson Logo" width={32} height={32} />
         </Link>
         <nav className="nav" aria-label="Main navigation">
           <Link href="/">Home</Link>
@@ -64,7 +62,7 @@ export default function Projects() {
               <figcaption>Jade Deal Analysis</figcaption>
             </figure>
             <figure className="project-figure">
-              <img src="/logo.svg" alt="Leo Magnusson portfolio logo" className="project-image" />
+              <img src="/logo.png" alt="Leo Magnusson Portfolio Logo" className="project-image" />
               <figcaption>Portfolio Logo</figcaption>
             </figure>
           </div>
